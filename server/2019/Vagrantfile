@@ -1,0 +1,19 @@
+Vagrant.configure('2') do |config|
+config.vm.box = 'hashicorp/precise64'
+
+config.vm.provider :vmware_esxi do |esxi|
+esxi.esxi_hostname = ''
+esxi.esxi_username = ''
+esxi.esxi_password = ''
+esxi.esxi_disk_store = ''
+esxi.guest_name = 'ws2019'
+esxi.guest_memsize = '4096'
+esxi.guest_numvcpus = '2'
+esxi.guest_nic_type = 'e1000'
+esxi.guest_disk_type = 'thin'
+esxi.guest_boot_disk_size = 20
+esxi.guest_guestos = ''
+esxi.guest_virtualhw_version = '15'
+config.vm.synced_folder('.', '/vagrant', type: 'nfs', disabled: true)
+  end
+end

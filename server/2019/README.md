@@ -12,7 +12,7 @@ Utiliza o vagrant para instalar um box com Windows Server 2019 no ESXI ( Versão
 - Habilitar SSH no ESXI
 - Instalar o Ovftool no Linux ( https://code.vmware.com/tool/ovf )
 - Instalar o pluing: vagrant-vmware-esxi ( https://github.com/josenk/vagrant-vmware-esxi#how-to-install )
-- Vagrant box com windows: 
+- Vagrant box com windows: leandroscardua/ws2019 
 
  Arquivos:
 --------

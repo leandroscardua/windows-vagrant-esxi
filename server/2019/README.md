@@ -18,7 +18,7 @@ Utiliza o vagrant para instalar um box com Windows Server 2019 no ESXI ( Versão
 --------
 
     .
-    └── Autounattend.xml              # arquivo de configuração do vagrant
+    └── Vagrantfile              # arquivo de configuração do vagrant
      
  Execucao:
 --------
